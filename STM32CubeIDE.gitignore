@@ -1,0 +1,25 @@
+# STM32CubeIDE build output directories
+Debug/
+Release/
+
+# Compiler-generated files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+*.d
+
+# Coverage and profiling files
+*.gcno
+*.gcda
+*.gcov
+
+# STM32CubeIDE-specific temporary files
+*.log
+
+# STM32CubeIDE metadata (optional to ignore if you want a clean repo)
+.stm32cubeide/
+.mxproject
