@@ -1,0 +1,9 @@
+[{
+		"file":	"D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\integer_addition\\main.cpp",
+		"directory":	"D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\integer_addition",
+		"command":	"C:/mingw64/bin/g++.exe -c D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\integer_addition\\main.cpp -o D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\integer_addition\\main.cpp.o -target x86_64-w64-mingw32 -Ic:\\mingw64\\include\\c++\\12.2.0 -Ic:\\mingw64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -Ic:\\mingw64\\include\\c++\\12.2.0\\backward -Ic:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -Ic:\\mingw64\\include -Ic:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -Ic:\\mingw64\\x86_64-w64-mingw32\\include -IC:\\mingw64\\bin\\mingw\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+	}, {
+		"file":	"D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\hello_world\\main.cpp",
+		"directory":	"D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\hello_world",
+		"command":	"C:/mingw64/bin/g++.exe -c D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\hello_world\\main.cpp -o D:\\Xstrahl_Project\\Repository\\cpp_adventures\\cpp_projects\\hello_world\\main.cpp.o -target x86_64-w64-mingw32 -Ic:\\mingw64\\include\\c++\\12.2.0 -Ic:\\mingw64\\include\\c++\\12.2.0\\x86_64-w64-mingw32 -Ic:\\mingw64\\include\\c++\\12.2.0\\backward -Ic:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include -Ic:\\mingw64\\include -Ic:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\12.2.0\\include-fixed -Ic:\\mingw64\\x86_64-w64-mingw32\\include -IC:\\mingw64\\bin\\mingw\\include -I. -I.  -O0  -gdwarf-2  -std=c++17  -Wall"
+	}]

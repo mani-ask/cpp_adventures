@@ -1,0 +1,23 @@
+# Build directories
+Debug/
+Release/
+
+# Object and binary files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# IDE-specific metadata
+*.tags
+*.tags_sorted_by_file
+*.workspace.session
+*.cache/
+*clang*
+
+# Backup and temporary files
+*~
+*.bak
+*.tmp
