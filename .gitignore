@@ -1,0 +1,24 @@
+# Eclipse workspace metadata
+.metadata/
+
+# Common build output directories across projects
+Debug/
+Release/
+
+# STM32CubeIDE-specific temporary files
+*.log
+
+# Build artifacts (object files, binaries)
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.srec
+*.d
+
+# Coverage and profiling files
+*.gcno
+*.gcda
+*.gcov

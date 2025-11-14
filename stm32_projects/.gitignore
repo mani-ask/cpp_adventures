@@ -19,7 +19,10 @@ Release/
 
 # STM32CubeIDE-specific temporary files
 *.log
-
-# STM32CubeIDE metadata (optional to ignore if you want a clean repo)
 .stm32cubeide/
 .mxproject
+
+# Keep essential files:
+# - .ioc (CubeMX configuration)
+# - Src/, Inc/, Drivers/, startup/, linker scripts (*.ld)
+# - Eclipse metadata (.project, .cproject, .settings/)
