@@ -7,6 +7,12 @@
 
 #include "led.hpp"
 
+namespace
+{
+	constexpr uint32_t GPIO_NUMBER_OFFSET = 16;
+}
+
+
 /* Base class Led Constructors */
 Led::Led(): port(GPIOA), pin ((std::uint32_t)0x0020), state (OFF) { };
 
@@ -24,7 +30,7 @@ void Led::on()
 
 void Led::off()
 {
-	port->BSRR = (pin << 16U);
+	port->BSRR = (pin << GPIO_NUMBER_OFFSET);
 	state = OFF;
 }
 
@@ -32,7 +38,7 @@ void Led::toggle()
 {
 	std::uint32_t odr = port->ODR;
 
-	port->ODR = ((odr & pin) << 16U) | (~odr & pin);
+	port->ODR = ((odr & pin) << GPIO_NUMBER_OFFSET) | (~odr & pin);
 
 	state = (state == OFF)? ON : OFF;
 }
