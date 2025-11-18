@@ -21,6 +21,7 @@ Release/
 *.log
 .stm32cubeide/
 .mxproject
+*/Drivers/*
 
 # Keep essential files:
 # - .ioc (CubeMX configuration)
